@@ -54,6 +54,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+![1](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/18551302-92c2-4619-9bd3-62b2f047856e)
+
 ### ii)Write the image
 
 ```
@@ -62,6 +64,9 @@ image=cv2.imread('image.jpg',0)
 cv2.imwrite('news.jpg',image)
 ```
 
+![2](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/664ff885-6ac5-437b-a299-f55042fa239a)
+
+
 ### iii)Shape of the Image
 
 ```
@@ -69,6 +74,8 @@ import cv2
 image=cv2.imread('image.jpg',1)
 print(image.shape)
 ```
+
+![3](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/1abdffd4-d5a5-4ac4-a223-409695c4a08c)
 
 ### iv)Access rows and columns
 
@@ -87,6 +94,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows() 
 ```
 
+![4](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/8bc9acd8-30ed-41b5-97a6-e8c7072e8af2)
+
 ### v)Cut and paste portion of image
 
 ```
@@ -99,6 +108,8 @@ cv2.imshow('image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+![5](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/0864e6b3-2f5f-4ea3-93e7-17953bd7da2a)
 
 ### vi) BGR and RGB to HSV and GRAY
 
@@ -124,6 +135,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+![6](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/4a241f6b-5a5c-4285-a680-12e92c83a94b)
+
 ### vii) HSV to RGB and BGR
 
 ```
@@ -144,6 +157,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+![7](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/37a5f239-01c9-46ec-9113-87d63ab3200e)
+
+
 ### viii) RGB and BGR to YCrCb
 
 ```
@@ -161,6 +177,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+![8](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/d48ff263-39a4-49e9-abfb-363d55b88e05)
 
 ### ix) Split and merge RGB Image
 
@@ -184,6 +202,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+![9](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/ebd8baca-ced4-4257-a025-a5232be9b656)
+
+
 ### x) Split and merge HSV Image
 
 ```
@@ -204,6 +225,8 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+![10](https://github.com/Darkwebnew/COLOR_CONVERSIONS_OF-IMAGE/assets/143114486/d46d1c98-6f9f-46f4-bd4a-4900af92ea35)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
